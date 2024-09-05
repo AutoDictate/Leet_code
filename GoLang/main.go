@@ -30,7 +30,14 @@ func main() {
 	// res := Accum("ZpglnRxqenU")
 	// fmt.Println(res)
 
-	res := CamelCase("hello world")
+	// res := CamelCase("hello world")
+	// fmt.Println(res)
+
+	// res:= Order("4of Fo1r pe6ople g3ood th5e the2")
+	// fmt.Println(res)
+
+
+	res := LongestConsec([]string{"ejjjjmmtthh", "zxxuueeg", "aanlljrrrxx", "dqqqaaabbb", "oocccffuucccjjjkkkjyyyeehh"},1 )
 	fmt.Println(res)
 
 }
