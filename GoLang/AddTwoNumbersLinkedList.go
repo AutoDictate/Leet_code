@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
-func addTwoNumbersInit() {
+func AddTwoNumbersInit() {
 	l1 := &ListNode{2, &ListNode{4, &ListNode{3, nil}}}
 	l2 := &ListNode{5, &ListNode{6, &ListNode{4, nil}}}
 
-	result := addTwoNumbers(l1, l2)
+	result := AddTwoNumbers(l1, l2)
 	for result != nil {
 		fmt.Print(result.Val)
 		if result.Next != nil {
@@ -17,7 +17,7 @@ func addTwoNumbersInit() {
 	fmt.Println()
 }
 
-func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
+func AddTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 
 	dummy := &ListNode{}
 	current := dummy
