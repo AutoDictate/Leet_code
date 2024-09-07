@@ -48,7 +48,18 @@ func main() {
 	// res := Zeros(30)
 	// fmt.Println(res)
 
-	res := Duplicate_count("abcdeaB11")
+	// res := Duplicate_count("abcdeaB11")
+	// fmt.Println(res)
+
+	// res := FindMissingLetter([]rune{'O', 'Q', 'R', 'S'})
+	// fmt.Println(res)
+
+	board := [3][3]int{
+		{0, 0, 1},
+		{0, 1, 2},
+		{1, 2, 2},
+	  }
+	res := IsSolved(board)
 	fmt.Println(res)
 
 }
